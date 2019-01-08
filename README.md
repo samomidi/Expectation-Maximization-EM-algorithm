@@ -1,11 +1,15 @@
-# Assignment 2
-# Team A
-
-## Team Members
-+ Wan-Chen Chiu, 150008359
-+ Emma Farrugia, 160007020
-+ Konstantinos Theodosopoulos, 170026763
-+ Sam Omidi, 180024815
+# Motivation
+In the field of fisheries stock assessment, biologists model fish populations to estimate sustainable levels of
+fishing mortality. One important component of these models is the age structure of the fish population, which
+can be estimated by taking a sample of fish from the population and counting growth layers on a small ear
+bone called the otolith. This is similar to ageing a tree by counting growth rings.
+This is a time consuming process and thus relatively expensive. It is easier to measure fish lengths; however,
+due to individual variation in growth rates, fish length does not correspond perfectly to fish age. We can
+consider observed fish lengths as resulting from a mixture of length distributions that correspond to age
+cohorts.
+In this assignment, you will be given 1000 fish length measurements, 100 of which are of known age. Your
+task is to determine the mean and standard deviation of the expected length-at-age for each age cohort in
+the sample and estimate the proportion of the sample that belongs to each age cohort.
 
 ## Task 1: Data exploration
 
@@ -65,11 +69,3 @@ Below is the graph of the original data with the densities of the mixture compon
 
 ![rplot](https://user-images.githubusercontent.com/32543461/47145044-bbbbc900-d2c0-11e8-83d3-23e55b704a89.jpeg)
 
-## Task 6: Work attribution
-
-I confirm that this repository is the work of our team, except where clearly indicated in the text.
-
-- Sam drew the plots as R code is attached, wrote part of the function testing, wrote the documentation for Task 1 and helped with code diagnosis and debugging.
-- Emma wrote the initialisation and expectation functions, co-wrote the calclikelihood and teamEM functions with Wan-Chen, made the final flowchart, wrote the dataframe function and co-wrote the enhancement of including an option to use known ages (includeknown) with Wan-Chen.
-- Konstantinos wrote the inputs checks, TestTeamEM function, worked on the calculation of the likelihood function and made some improvements in the teamEM function.
-- Wan-Chen wrote the maximisation function, wrote the pairedttest, normality.test and component.test functions, wrote comments for the teamEM file and the TestEM file and wrote the documentation for Task 2.
