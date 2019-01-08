@@ -1,4 +1,4 @@
-#Motivation
+# Motivation
 In the field of fisheries stock assessment, biologists model fish populations to estimate sustainable levels of fishing mortality. One important component of these models is the age structure of the fish population, which can be estimated by taking a sample of fish from the population and counting growth layers on a small ear bone called the otolith. This is similar to ageing a tree by counting growth rings.
 This is a time consuming process and thus relatively expensive. It is easier to measure fish lengths; however, due to individual variation in growth rates, fish length does not correspond perfectly to fish age. We can consider observed fish lengths as resulting from a mixture of length distributions that correspond to age cohorts.
 
