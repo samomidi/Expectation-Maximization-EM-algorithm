@@ -7,7 +7,7 @@ This is a time consuming process and thus relatively expensive. It is easier to 
 due to individual variation in growth rates, fish length does not correspond perfectly to fish age. We can
 consider observed fish lengths as resulting from a mixture of length distributions that correspond to age
 cohorts.
-In this assignment, you will be given 1000 fish length measurements, 100 of which are of known age. Your
+In this project, we will be given 1000 fish length measurements, 100 of which are of known age. The
 task is to determine the mean and standard deviation of the expected length-at-age for each age cohort in
 the sample and estimate the proportion of the sample that belongs to each age cohort.
 
